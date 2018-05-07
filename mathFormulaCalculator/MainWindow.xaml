@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:mathFormulaCalculator"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Grid HorizontalAlignment="Left" Height="410" VerticalAlignment="Top" Width="790"/>
 </Window>
