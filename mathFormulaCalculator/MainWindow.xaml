@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:mathFormulaCalculator"
         mc:Ignorable="d"
-        Title="Formula Calculator" Height="450" Width="230">
-    <Grid HorizontalAlignment="Left" Height="410" VerticalAlignment="Top" Width="220">
+        Title="Formula Calculator" Height="156.555" Width="230">
+    <Grid HorizontalAlignment="Left" Height="123" VerticalAlignment="Top" Width="220">
         <Button x:Name="Algebra" Content="Algebra" HorizontalAlignment="Left" Margin="29,34,0,0" VerticalAlignment="Top" Width="162" Click="Button_Click" Height="29"/>
         <Button x:Name="Geometry" Content="Geometry" HorizontalAlignment="Left" Margin="29,71,0,0" VerticalAlignment="Top" Width="162" Click="Button_Click_1" Height="29"/>
     </Grid>

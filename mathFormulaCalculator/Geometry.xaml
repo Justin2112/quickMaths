@@ -7,8 +7,10 @@
         mc:Ignorable="d"
         Title="Geometry Calculator" Height="300" Width="323.193">
     <Grid>
-        <Button x:Name="pythTheoremButton" Content="Pythagorean Theorem" HorizontalAlignment="Left" Margin="5,27,0,0" VerticalAlignment="Top" Width="103" Height="18" FontSize="10" Click="pythTheoremButton_Click"/>
-        <Frame Source="pythTheorem.xaml"  Content="Frame" HorizontalAlignment="Left" Height="249" Margin="132,10,0,0" VerticalAlignment="Top" Width="173"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="254" Stroke="Black" VerticalAlignment="Top" Width="183" Margin="127,5,0,0"/>
+
+        <Button x:Name="pythTheoremButton" Content="Pythagorean Theorem" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="103" Height="18" FontSize="10" Click="pythTheoremButton_Click"/>
+        <Frame Source="pythTheorem.xaml"  Content="pythTheorem.xaml" HorizontalAlignment="Left" Height="249" Margin="132,10,0,0" VerticalAlignment="Top" Width="173"/>
 
     </Grid>
 </Window>
