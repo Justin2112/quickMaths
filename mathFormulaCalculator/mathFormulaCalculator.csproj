@@ -54,9 +54,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Algebra.xaml.cs">
+      <DependentUpon>Algebra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="distanceFormula.xaml.cs">
+      <DependentUpon>distanceFormula.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Geometry.xaml.cs">
       <DependentUpon>Geometry.xaml</DependentUpon>
     </Compile>
+    <Compile Include="pythTheorem.xaml.cs">
+      <DependentUpon>pythTheorem.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Algebra.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="distanceFormula.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -79,9 +96,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="pythTheorem.xaml.cs">
-      <DependentUpon>pythTheorem.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

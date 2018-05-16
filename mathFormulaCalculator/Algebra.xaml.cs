@@ -17,17 +17,17 @@ namespace mathFormulaCalculator
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Window3 : Window
     {
-        public Window1()
+        public Window3()
         {
             InitializeComponent();
         }
 
-        private void pythTheoremButton_Click(object sender, RoutedEventArgs e)
+        private void distanceFormula_Click(object sender, RoutedEventArgs e)
         {
-            Window2 pythTheorem = new Window2();
-            pythTheorem.Show();
+            distanceFormula DistanceCalculator = new distanceFormula();
+            DistanceCalculator.Show();
         }
     }
 }

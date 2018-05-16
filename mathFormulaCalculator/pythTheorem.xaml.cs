@@ -10,22 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace mathFormulaCalculator
 {
     /// <summary>
-    /// Interaction logic for Page1.xaml
+    /// Interaction logic for Window2.xaml
     /// </summary>
-    public partial class Page1 : Page
+    public partial class Window2 : Window
     {
-        public Page1()
+        public Window2()
         {
             InitializeComponent();
         }
-        
-        //solves for leg
         private void solveForHypotenuse_Click(object sender, RoutedEventArgs e)
         {
             string aString = aText.Text;

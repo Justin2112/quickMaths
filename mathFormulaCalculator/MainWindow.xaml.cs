@@ -27,11 +27,14 @@ namespace mathFormulaCalculator
         //Algebra
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Window3 Alg = new Window3();
+            Alg.Show();
         }
         //Geometry
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            Window1 Geom = new Window1();
+            Geom.Show();
 
         }
     }
